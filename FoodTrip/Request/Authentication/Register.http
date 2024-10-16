@@ -1,0 +1,11 @@
+@host=https://localhost:5114/auth
+
+POST {{host}}/register
+Content-Type: application/json
+
+{
+    "firstName": "Arnold",
+    "lastName": "Schwarzenegger",
+    "email": "termintor@skynet.com",
+    "password": "AstaLav1st@"
+}

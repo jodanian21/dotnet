@@ -1,0 +1,9 @@
+@host=https://localhost:5114/auth
+
+POST {{host}}/login
+Content-Type: application/json
+
+{
+    "email": "termintor@skynet.com",
+    "password": "AstaLav1st@"
+}
